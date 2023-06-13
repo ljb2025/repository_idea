@@ -17,6 +17,9 @@ public class HelloServlet extends HttpServlet {
         System.out.println("远程仓库添加了一条内容");
         System.out.println("idea添加了一条内容");
         System.out.println("dev添加了一条内容");
+        System.out.println("你爷爷添加了一条消息");
+        System.out.println("哈哈添加了一条内容");
+
         System.out.println("lzk添加的");
         // Hello
         PrintWriter out = response.getWriter();

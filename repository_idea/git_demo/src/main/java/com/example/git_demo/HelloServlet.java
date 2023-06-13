@@ -15,6 +15,8 @@ public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
         System.out.println("远程仓库添加了一条内容");
+        System.out.println("idea添加了一条内容");
+        System.out.println("dev添加了一条内容");
 
         // Hello
         PrintWriter out = response.getWriter();
